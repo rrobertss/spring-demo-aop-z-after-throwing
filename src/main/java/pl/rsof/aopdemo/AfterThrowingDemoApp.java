@@ -13,12 +13,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import pl.rsof.aopdemo.dao.AccountDAO;
 
 /**
- * <p></p><p>23 lis 2021</p>
+ * <p>Advice - AfterThrowing</p><p>23 lis 2021</p>
  * @author RS
  *
  */
 public class AfterThrowingDemoApp {
 
+	
+	// przez pomylkę dodano commit z poradą Around, pominąć to.
 	
 	public static void main(String[] args) {
 

@@ -36,7 +36,7 @@ public class MyDemoLoggingAspect {
 	@After("execution(* pl.rsof.aopdemo.dao.AccountDAO.findAccounts(..))")
 	public void afterFinallyFindAccountsAdvice(JoinPoint joinPoint) {
 		String method = joinPoint.getSignature().toShortString();
-		System.out.println("----->>>>> After (finally), method is "+method);
+		System.out.println("----->>>> After (finally), method is "+method);
 	}
 	
 	
